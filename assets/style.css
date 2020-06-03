@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(231, 227, 226);
+}
+.main-container {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 200;
+  font-size: 19px;
+  padding: 20px;
+  color: #606266;
+}
+
+.main-container .update {
+  color: #909399;
+  line-height: 50px;
+  border-bottom: 1px solid #dcdfe6;
+}
+
+.person .items {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.person .items:nth-child(1) {
+  width: 800px;
+}
+.person .items:nth-child(1) > ul > li > span {
+  width: 100px;
+  display: inline-block;
+}
+.person .items:nth-child(2) img {
+  width: 120px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #303133;
+}
+h1 {
+  font-size: 25px;
+  line-height: 50px;
+  border-bottom: 1px solid #e4e7ed;
+}
+
+h1 i.iconfont {
+  font-size: 25px;
+  margin-right: 8px;
+}
+
+article {
+  padding: 12px 0;
+}
+
+ul,
+ol {
+  padding-left: 20px;
+}
+
+ul,
+ol > li {
+  list-style-type: lower-greek;
+  line-height: 30px;
+  font-size: 16px;
+}
+.resume-item {
+}
+.resume-item .content {
+  margin: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 40px;
+  padding-top: 20px;
+}
+
+p {
+  padding: 10px 0;
+}

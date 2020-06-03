@@ -1,0 +1,30 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: jooey wong
+ * @Date: 2020-06-03 10:57:10
+ * @LastEditors: jooey wong
+ * @LastEditTime: 2020-06-03 14:11:08
+--> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1860102_04ipi4s9p2wu.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="update">
+            <label>更新时间</label>
+            {{ site.update }}
+        </div>
+        <div class="items">
+            {% include person.html %}
+            {{ content }}
+        </div>
+    </div>
+</body>
+</html>

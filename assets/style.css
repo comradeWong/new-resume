@@ -9,13 +9,13 @@ body {
 }
 
 body {
-  background-color: rgb(231, 227, 226);
+  background-color: #f5f2e9;
 }
 .main-container {
   width: 1000px;
   margin: 0 auto;
   background-color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Noto Sans SC', 'Roboto', sans-serif;
   font-weight: 200;
   font-size: 19px;
   padding: 20px;
@@ -51,6 +51,7 @@ h4,
 h5,
 h6 {
   color: #303133;
+  font-family: 'Noto Sans SC', 'Roboto', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 h1 {
   font-size: 25px;
@@ -61,7 +62,7 @@ h1.title {
   display: flex;
   align-items: center;
 }
-h1.title span{
+h1.title span {
   margin-left: 8px;
 }
 h1 i.iconfont {

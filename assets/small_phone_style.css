@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #f5f2e9;
+}
+.main-container {
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  font-family: 'Noto Sans SC', 'Roboto', sans-serif;
+  font-weight: 200;
+  font-size: 40rem;
+  padding: 24rem;
+  color: #606266;
+  box-sizing: border-box;
+}
+
+.main-container .update {
+  color: #909399;
+  line-height: 100rem;
+  border-bottom: 2rem solid #dcdfe6;
+}
+
+.person .items {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.person .items:nth-child(1) {
+  width: 1600rem;
+}
+/* .person .items:nth-child(1) > ul > li > span {
+  width: 200rem;
+  display: inline-block;
+} */
+.person .items:nth-child(1) .title {
+  width: 200rem;
+  font-weight: bold;
+  display: block;
+}
+.person .items:nth-child(2) img {
+  width: 240rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #303133;
+  font-family: 'Noto Sans SC', 'Roboto', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+h1 {
+  font-size: 50rem;
+  line-height: 100rem;
+  border-bottom: 2rem solid #e4e7ed;
+}
+h1.title {
+  display: flex;
+  align-items: center;
+}
+h1.title span {
+  margin-left: 16rem;
+}
+h1 i.iconfont {
+  font-size: 50rem;
+  margin-right: 16rem;
+}
+
+article {
+  padding: 24rem 0;
+}
+
+ul,
+ol {
+  padding-left: 40rem;
+}
+
+ul,
+ol > li {
+  list-style-type: lower-greek;
+  line-height: 60rem;
+  font-size: 32rem;
+}
+.resume-item {
+}
+.resume-item .content {
+  margin: 40rem;
+}
+
+h2 {
+  font-size: 40rem;
+  line-height: 80rem;
+  padding-top: 40rem;
+}
+
+p {
+  padding: 20rem 0;
+  font-size: 34rem;
+}

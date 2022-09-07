@@ -14,7 +14,8 @@ common-googlefonts:
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ site.title }}</title>
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" media="screen and (min-width: 1160px)" href="assets/style.css" />
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="assets/small_phone_style.css" />
   </head>
   <body>
     <div class="main-container">
@@ -25,4 +26,5 @@ common-googlefonts:
       <div class="items">{% include person.html %} {{ content }}</div>
     </div>
   </body>
+  <script src="assets/js/index.js"></script>
 </html>

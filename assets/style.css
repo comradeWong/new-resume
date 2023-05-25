@@ -12,7 +12,9 @@ body {
   background-color: #f5f2e9;
 }
 .main-container {
-  width: 1000px;
+  max-width: 1000px;
+  width: 100vw;
+  box-sizing: border-box;
   margin: 0 auto;
   background-color: white;
   font-family: 'Noto Sans SC', 'Roboto', sans-serif;
@@ -27,8 +29,12 @@ body {
   line-height: 50px;
   border-bottom: 1px solid #dcdfe6;
 }
-
-.person .items {
+.person .content {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+/* .person .items {
   display: inline-block;
   vertical-align: top;
 }
@@ -39,7 +45,7 @@ body {
 .person .items:nth-child(1) > ul > li > span {
   width: 100px;
   display: inline-block;
-}
+}*/
 .person .items:nth-child(2) img {
   width: 120px;
 }

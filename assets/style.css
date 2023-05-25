@@ -34,6 +34,13 @@ body {
   align-items: start;
   justify-content: space-between;
 }
+/* 当页面宽度大于300px小于600px */
+@media screen and (max-width: 500px) {
+  .person .content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
 /* .person .items {
   display: inline-block;
   vertical-align: top;
